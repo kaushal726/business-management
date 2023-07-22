@@ -62,7 +62,7 @@ function HomeScreen() {
                         <input type='date' value={formData.date} onChange={(e) => { handleChange(e, "Date") }}></input>
                     </label>
                 </div>
-                <div>
+                <div className='flex items-center justify-center'>
                     <button className='glowing-btn'><span className='glowing-txt'>SU<span className='faulty-letter'>BM</span>IT</span></button>
                 </div>
             </form>

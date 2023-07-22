@@ -7,12 +7,12 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  color: black;
+  /* color: black; */
 }
 label {
   font-weight: 500;
   width: 100%;
-  color: white;
+  /* color: white; */
 }
 
 :root {
@@ -32,12 +32,8 @@ body {
   overflow: hidden;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: black;
+button {
+  background: black !important;
 }
 
 .glowing-btn {
